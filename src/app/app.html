@@ -1,53 +1,84 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
-  <div class="container-fluid">
-    <a class="navbar-brand" routerLink="/boas-vindas">
-      Portal de Gestão do Conhecimento
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" routerLink="/boas-vindas">Boas-Vindas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" routerLink="/metodologia">Metodologia</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="pilaresDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Pilares da GC
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="pilaresDropdown">
-            <li><a class="dropdown-item" routerLinkActive="active" routerLink="/estrategia-lideranca">Estratégia e Liderança</a></li>
-            <li><a class="dropdown-item" routerLinkActive="active" routerLink="/pessoas-cultura">Pessoas e Cultura</a></li>
-            <li><a class="dropdown-item" routerLinkActive="active" routerLink="/processos-tecnologia">Processos e Tecnologia</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="analisesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Análises
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="analisesDropdown">
-            <li><a class="dropdown-item" routerLinkActive="active" routerLink="/diagnostico">Diagnóstico</a></li>
-            <li><a class="dropdown-item" routerLinkActive="active" routerLink="/essencialidade">Essencialidade</a></li>
-            <li><a class="dropdown-item" routerLinkActive="active" routerLink="/criticidade">Criticidade</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" routerLink="/desenvolvimento">Desenvolvimento</a>
-        </li>
-      </ul>
+<div class="wrapper" [ngClass]="{ 'collapsed': isSidebarCollapsed }">
+  <nav id="sidebar">
+    <div class="sidebar-header">
+      <h3>Portal GC</h3>
+      <span>INPI</span>
     </div>
-  </div>
-</nav>
 
-<main class="container mt-4">
-  <router-outlet></router-outlet>
-</main>
+    <ul class="list-unstyled components">
+      <li>
+        <a routerLink="/boas-vindas" routerLinkActive="active">
+          <i class="bi bi-house-door-fill"></i>
+          <span class="nav-link-text">Boas-Vindas</span>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/metodologia" routerLinkActive="active">
+          <i class="bi bi-diagram-3-fill"></i>
+          <span class="nav-link-text">Metodologia</span>
+        </a>
+      </li>
+      
+      <p class="ms-3 mt-3 text-muted"><small>Pilares da GC</small></p>
 
-<footer class="bg-light text-center text-lg-start mt-auto py-3">
-  <div class="text-center">
-    © 2025 Instituto Nacional da Propriedade Industrial (INPI)
+      <li>
+        <a routerLink="/estrategia-lideranca" routerLinkActive="active">
+          <i class="bi bi-flag-fill"></i>
+          <span class="nav-link-text">Estratégia e Liderança</span>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/pessoas-cultura" routerLinkActive="active">
+          <i class="bi bi-people-fill"></i>
+          <span class="nav-link-text">Pessoas e Cultura</span>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/processos-tecnologia" routerLinkActive="active">
+          <i class="bi bi-gear-wide-connected"></i>
+          <span class="nav-link-text">Processos e Tecnologia</span>
+        </a>
+      </li>
+      
+      <p class="ms-3 mt-3 text-muted"><small>Análises</small></p>
+      
+      <li>
+        <a routerLink="/diagnostico" routerLinkActive="active">
+          <i class="bi bi-clipboard-data-fill"></i>
+          <span class="nav-link-text">Diagnóstico</span>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/essencialidade" routerLinkActive="active">
+          <i class="bi bi-star-fill"></i>
+          <span class="nav-link-text">Essencialidade</span>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/criticidade" routerLinkActive="active">
+          <i class="bi bi-shield-fill-exclamation"></i>
+          <span class="nav-link-text">Criticidade</span>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/desenvolvimento" routerLinkActive="active">
+          <i class="bi bi-bar-chart-line-fill"></i>
+          <span class="nav-link-text">Desenvolvimento</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="content">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4 shadow-sm rounded-3">
+      <div class="container-fluid">
+        <button type="button" class="btn btn-outline-primary" (click)="toggleSidebar()">
+          <i class="bi bi-list"></i>
+          <span>Menu</span>
+        </button>
+      </div>
+    </nav>
+
+    <router-outlet></router-outlet>
   </div>
-</footer>
+</div>
