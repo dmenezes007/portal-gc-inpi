@@ -1,0 +1,604 @@
+[
+    {
+        "Unidade":"Diretoria Executiva",
+        "Sigla":"DIREX",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Planejamento e Gestão Estratégica",
+        "Sigla":"CGPE",
+        "Tema":"Administração Pública",
+        "Subtema":"Auditoria",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Divisão de Planejamento e Desempenho",
+        "Sigla":"DPLAD",
+        "Tema":"Administração Pública",
+        "Subtema":"Auditoria",
+        "Num_Servidores":4.0
+    },
+    {
+        "Unidade":"Divisão de Escritório de Processos e Qualidade",
+        "Sigla":"DIGEQ",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Economia e Inovação",
+        "Sigla":"CGEI",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Divisão de Análise Econômica",
+        "Sigla":"DIECO",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":3.0
+    },
+    {
+        "Unidade":"Divisão de Inteligência de Mercado e Preços",
+        "Sigla":"DIIMP",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Divisão de Estudos em Propriedade Industrial e Inovação",
+        "Sigla":"DEPIN",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Divisão de Estudos em Propriedade Industrial e Inovação",
+        "Sigla":"DEPIN",
+        "Tema":"Ciência Política",
+        "Subtema":"Políticas Públicas",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Divisão de Estudos em Propriedade Industrial e Inovação",
+        "Sigla":"DEPIN",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Coordenação de Relações Internacionais",
+        "Sigla":"COINT",
+        "Tema":"Administração Pública",
+        "Subtema":"Cooperação Internacional",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Divisão de Relações Bilaterais",
+        "Sigla":"DIRBI",
+        "Tema":"Administração Pública",
+        "Subtema":"Cooperação Internacional",
+        "Num_Servidores":5.0
+    },
+    {
+        "Unidade":"Divisão de Relações Multilaterais",
+        "Sigla":"DIREM",
+        "Tema":"Administração Pública",
+        "Subtema":"Cooperação Internacional",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Coordenação de Articulação e Fomento à Propriedade Intelectual e Inovação",
+        "Sigla":"COART",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":5.0
+    },
+    {
+        "Unidade":"Escritórios de Difusão Regional",
+        "Sigla":"EDIR",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":20.0
+    },
+    {
+        "Unidade":"Seções de Difusão Regional",
+        "Sigla":"SEDIR",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Coordenação de Relações Institucionais - DF",
+        "Sigla":"COINS-DF",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":8.0
+    },
+    {
+        "Unidade":"Coordenação de Relações Institucionais - SP",
+        "Sigla":"COINS-SP",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":15.0
+    },
+    {
+        "Unidade":"Divisão de Cooperação Nacional",
+        "Sigla":"DICOP",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Seção de Apoio à Disseminação para Inovação",
+        "Sigla":"SEADI",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Ouvidoria",
+        "Sigla":"OUVID",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Divisão de Assuntos Externos",
+        "Sigla":"DAEXT",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":3.0
+    },
+    {
+        "Unidade":"Divisão de Assuntos Internos",
+        "Sigla":"DAINT",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Serviço de Apoio ao Contencioso",
+        "Sigla":"SCONT",
+        "Tema":"Administração Pública",
+        "Subtema":"Produtividade",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Serviço de Apoio Administrativo",
+        "Sigla":"SERAD",
+        "Tema":"Administração Pública",
+        "Subtema":"Produtividade",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Auditoria Interna",
+        "Sigla":"AUDIT",
+        "Tema":"Administração Pública",
+        "Subtema":"Auditoria",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Divisão de Acompanhamento Operacional",
+        "Sigla":"DIOPE",
+        "Tema":"Ciência da Informação",
+        "Subtema":"Tecnologia da Informação",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Divisão de Acompanhamento de Gestão",
+        "Sigla":"DIAGE",
+        "Tema":"Administração Pública",
+        "Subtema":"Auditoria",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Divisão Administrativa e Apuração Correcional",
+        "Sigla":"DIAAC",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Seção de Investigação e Admissibilidade",
+        "Sigla":"SEIAD",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Diretoria de Administração",
+        "Sigla":"DIRAD",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":3.0
+    },
+    {
+        "Unidade":"Diretoria de Administração",
+        "Sigla":"DIRAD",
+        "Tema":"Ciência da Informação",
+        "Subtema":"Tecnologia da Informação",
+        "Num_Servidores":3.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Recursos Humanos",
+        "Sigla":"CGRH",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":9.0
+    },
+    {
+        "Unidade":"Divisão de Saúde Ocupacional",
+        "Sigla":"DISAO",
+        "Tema":"Educação Física",
+        "Subtema":"Educação Física",
+        "Num_Servidores":4.0
+    },
+    {
+        "Unidade":"Divisão de Saúde Ocupacional",
+        "Sigla":"DISAO",
+        "Tema":"Saúde Coletiva",
+        "Subtema":"Medicina Preventiva",
+        "Num_Servidores":4.0
+    },
+    {
+        "Unidade":"Seção de Apoio à Assistência e Desenvolvimento de Recursos Humanos",
+        "Sigla":"SEADE",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Seção de Apoio à Administração de Recursos Humanos",
+        "Sigla":"SEARH",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Divisão de Legislação de Recursos Humanos",
+        "Sigla":"DILEG",
+        "Tema":"Administração Pública",
+        "Subtema":"Gestão de Pessoas",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Serviço de Governança de Recursos Humanos",
+        "Sigla":"SEGOV",
+        "Tema":"Administração Pública",
+        "Subtema":"Gestão de Pessoas",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Seção de Apoio de Governança de Recursos Humanos",
+        "Sigla":"SEAGO",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Academia de Propriedade Intelectual, Inovação e Desenvolvimento",
+        "Sigla":"ACAD",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":6.0
+    },
+    {
+        "Unidade":"Divisão de Inovação e Extensão em Propriedade Intelectual",
+        "Sigla":"DIEPI",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":4.0
+    },
+    {
+        "Unidade":"Serviço de Tecnologias Educacionais",
+        "Sigla":"SETED",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Divisão de Pós-Graduação e Pesquisa",
+        "Sigla":"DIPGP",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":8.0
+    },
+    {
+        "Unidade":"Serviço Acadêmico",
+        "Sigla":"SERAC",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":4.0
+    },
+    {
+        "Unidade":"Biblioteca de Propriedade Intelectual e Inovação",
+        "Sigla":"BIBLI",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Centro de Educação Corporativa",
+        "Sigla":"CETEC",
+        "Tema":"Administração Pública",
+        "Subtema":"Liderança",
+        "Num_Servidores":4.0
+    },
+    {
+        "Unidade":"Divisão de Processos de Aquisição",
+        "Sigla":"DIPRA",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":3.0
+    },
+    {
+        "Unidade":"Seção de Apoio Administrativo",
+        "Sigla":"SEADM",
+        "Tema":"Administração Pública",
+        "Subtema":"Orçamento e Finanças",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Divisão de Programação e Execução Financeira",
+        "Sigla":"DIPEF",
+        "Tema":"Administração Pública",
+        "Subtema":"Orçamento e Finanças",
+        "Num_Servidores":4.0
+    },
+    {
+        "Unidade":"Serviço de Liquidação Financeira",
+        "Sigla":"SELIF",
+        "Tema":"Administração Pública",
+        "Subtema":"Orçamento e Finanças",
+        "Num_Servidores":3.0
+    },
+    {
+        "Unidade":"Divisão de Orçamento e Custos",
+        "Sigla":"DIORC",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":4.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Tecnologia da Informação",
+        "Sigla":"CGTI",
+        "Tema":"Ciência da Informação",
+        "Subtema":"Tecnologia da Informação",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Coordenação de Sistemas de Informação",
+        "Sigla":"COSIS",
+        "Tema":"Ciência da Informação",
+        "Subtema":"Tecnologia da Informação",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Coordenação de Sistemas de Informação",
+        "Sigla":"COSIS",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Serviço de Suporte aos Sistemas em Produção",
+        "Sigla":"SESUS",
+        "Tema":"Administração Pública",
+        "Subtema":"Produtividade",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Coordenação de Infraestrutura e Suporte",
+        "Sigla":"COINF",
+        "Tema":"Ciência da Informação",
+        "Subtema":"Tecnologia da Informação",
+        "Num_Servidores":3.0
+    },
+    {
+        "Unidade":"Divisão de Infraestrutura e Suporte",
+        "Sigla":"DIINF",
+        "Tema":"Ciência da Informação",
+        "Subtema":"Tecnologia da Informação",
+        "Num_Servidores":5.0
+    },
+    {
+        "Unidade":"Divisão de Suporte à Gestão de Tecnologia da Informação",
+        "Sigla":"DISTI",
+        "Tema":"Ciência da Informação",
+        "Subtema":"Tecnologia da Informação",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Divisão de Segurança da Informação",
+        "Sigla":"DISEG",
+        "Tema":"Ciência da Informação",
+        "Subtema":"Tecnologia da Informação",
+        "Num_Servidores":3.0
+    },
+    {
+        "Unidade":"Serviço de Atendimento ao Usuário e Administração de Rede",
+        "Sigla":"SERED",
+        "Tema":"Ciência da Informação",
+        "Subtema":"Tecnologia da Informação",
+        "Num_Servidores":3.0
+    },
+    {
+        "Unidade":"Diretoria de Patentes, Programas de Computador e Topografias de Circuitos Integrados",
+        "Sigla":"DIRPA",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":3.0
+    },
+    {
+        "Unidade":"Divisão de Governança Setorial de Patentes, Programas de Computador e Topografia de Circuitos Integrados",
+        "Sigla":"DIGOV-DIRPA",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Patentes I",
+        "Sigla":"CGPAT-I",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Patentes II",
+        "Sigla":"CGPAT-II",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":3.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Patentes III",
+        "Sigla":"CGPAT-III",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Patentes IV",
+        "Sigla":"CGPAT-IV",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":4.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Informação Tecnológica de Patentes",
+        "Sigla":"COGIT",
+        "Tema":"Administração Pública",
+        "Subtema":"Inovação",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Informação Tecnológica de Patentes",
+        "Sigla":"COGIT",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Diretoria de Marcas, Desenhos Industriais e Indicações Geográficas",
+        "Sigla":"DIRMA",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":2.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Marcas I",
+        "Sigla":"CGMAR-I",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Divisão de Exame Técnico I",
+        "Sigla":"DITEC-I",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":15.0
+    },
+    {
+        "Unidade":"Divisão de Exame Técnico II",
+        "Sigla":"DITEC-II",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":11.0
+    },
+    {
+        "Unidade":"Divisão de Exame Técnico III",
+        "Sigla":"DITEC-III",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":18.0
+    },
+    {
+        "Unidade":"Divisão de Exame Técnico IV",
+        "Sigla":"DITEC-IV",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":18.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Marcas II",
+        "Sigla":"CGMAR-II",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":1.0
+    },
+    {
+        "Unidade":"Divisão de Exame Técnico V",
+        "Sigla":"DITEC-V",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":15.0
+    },
+    {
+        "Unidade":"Divisão de Exame Técnico VI",
+        "Sigla":"DITEC-VI",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":15.0
+    },
+    {
+        "Unidade":"Divisão de Exame Técnico VII",
+        "Sigla":"DITEC-VII",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":14.0
+    },
+    {
+        "Unidade":"Divisão de Exame Técnico VIII",
+        "Sigla":"DITEC-VIII",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":13.0
+    },
+    {
+        "Unidade":"Coordenação-Geral de Desenhos Industriais, Indicações Geográficas e Protocolo de Madri",
+        "Sigla":"CGDIP",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Divisão de Exame Técnico IX",
+        "Sigla":"DITEC-IX",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":12.0
+    },
+    {
+        "Unidade":"Divisão de Exame Técnico X",
+        "Sigla":"DITEC-X",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":8.0
+    },
+    {
+        "Unidade":"Divisão de Exame Técnico de Desenhos Industriais",
+        "Sigla":"DITDI",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Divisão de Exame Técnico de Indicações Geográficas",
+        "Sigla":"DITIG",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":0.0
+    },
+    {
+        "Unidade":"Divisão de Orientação Técnica de Contratos",
+        "Sigla":"DITEC",
+        "Tema":"Matemática",
+        "Subtema":"Análise",
+        "Num_Servidores":2.0
+    }
+]
