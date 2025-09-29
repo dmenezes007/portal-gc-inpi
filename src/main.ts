@@ -1,12 +1,13 @@
-// DENTRO DE: src/main.ts (VERSÃO FINAL E CORRETA)
-
+// DENTRO DE: src/main.ts
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideRouter } from '@angular/router';
-import { App } from './app/app'; // MUDANÇA AQUI
+import { provideHttpClient } from '@angular/common/http'; // IMPORTE AQUI
+import { App } from './app/app';
 import { routes } from './app/app.routes';
 
-bootstrapApplication(App, { // E MUDANÇA AQUI
+bootstrapApplication(App, {
   providers: [
-    provideRouter(routes)
+    provideRouter(routes),
+    provideHttpClient() // ADICIONE AQUI
   ]
 }).catch(err => console.error(err));

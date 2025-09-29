@@ -1,1 +1,21 @@
-<p>criticidade works!</p>
+<div class="container-fluid">
+  <h1 class="display-5 fw-bold border-bottom pb-3 mb-4">Matriz de Criticidade</h1>
+  <div class="alert alert-info">
+    <p class="mb-0">Este gráfico visualiza a criticidade dos conhecimentos mapeados. Conhecimentos no canto superior direito são os mais críticos.</p>
+    <ul>
+      <li><strong>Eixo X (Impacto Estratégico):</strong> Quão danosa é a perda deste conhecimento para os objetivos do INPI.</li>
+      <li><strong>Eixo Y (Risco de Perda):</strong> Quão concentrado este conhecimento está em poucas pessoas.</li>
+      <li><strong>Tamanho da Bolha (Dificuldade de Reposição):</strong> Quão difícil é contratar ou treinar novos profissionais com este conhecimento.</li>
+    </ul>
+  </div>
+
+  <div class="card shadow-sm">
+    <div class="card-body">
+      <canvas baseChart 
+        [data]="bubbleChartData" 
+        [type]="bubbleChartType" 
+        [options]="bubbleChartOptions">
+      </canvas>
+    </div>
+  </div>
+</div>

@@ -1,1 +1,42 @@
-<p>desenvolvimento works!</p>
+<div class="container-fluid">
+  <div class="d-flex justify-content-between align-items-center border-bottom pb-3 mb-4">
+    <h1 class="display-5 fw-bold mb-0">Plano de Desenvolvimento</h1>
+    <button class="btn btn-success btn-lg" (click)="exportarParaXLSX()">
+      <i class="bi bi-file-earmark-excel-fill me-2"></i> Baixar como XLSX
+    </button>
+  </div>
+  <p class="lead">Esta tabela apresenta um template proativo para o plano de desenvolvimento, cruzando conhecimentos pertinentes, unidades e perfis de servidores. As colunas "Lacuna de Conhecimento" e "Nível de Esforço" devem ser preenchidas pelos gestores.</p>
+
+  <div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered">
+      <thead class="table-dark">
+        <tr>
+          <th>Unidade (Sigla)</th>
+          <th>Perfil do Servidor</th>
+          <th>Nº Servidores na Unidade</th>
+          <th>Aprendizado Necessário</th>
+          <th>Lacuna de Conhecimento</th>
+          <th>Tema Geral</th>
+          <th>Subtema</th>
+          <th>Nível de Esforço</th>
+          <th>Competência Desenvolvida</th>
+          <th>Resultado Estratégico Esperado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of dadosDiagnostico">
+          <td>{{ item['Unidade (Sigla)'] }}</td>
+          <td>{{ item['Perfil do Servidor'] }}</td>
+          <td>{{ item['Num Servidores na Unidade'] }}</td>
+          <td>{{ item['Aprendizado Necessário'] }}</td>
+          <td>{{ item['Lacuna de Conhecimento'] }}</td>
+          <td>{{ item['Tema Geral'] }}</td>
+          <td>{{ item['Subtema'] }}</td>
+          <td>{{ item['Nível de Esforço'] }}</td>
+          <td>{{ item['Competência Desenvolvida'] }}</td>
+          <td>{{ item['Resultado Estratégico Esperado'] }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
