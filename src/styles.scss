@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+// DENTRO DE: src/styles.scss
+
+// Garante que a aplicação ocupe a altura total da tela
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+// Garante que o conteúdo principal empurre o rodapé para baixo
+main {
+  flex: 1 0 auto;
+  padding-bottom: 2rem; // Adiciona um respiro no final da página
+}
