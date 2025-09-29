@@ -1,11 +1,11 @@
-// DENTRO DE: src/main.ts (VERSÃO FINAL CORRIGIDA)
+// DENTRO DE: src/main.ts (VERSÃO 100% CORRIGIDA)
 
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideRouter } from '@angular/router';
-import { AppComponent } from './app/app'; // Caminho corrigido
+import { App } from './app/app'; // NOME DA CLASSE CORRIGIDO
 import { routes } from './app/app.routes';
 
-bootstrapApplication(AppComponent, {
+bootstrapApplication(App, { // NOME DA CLASSE CORRIGIDO
   providers: [
     provideRouter(routes)
   ]
