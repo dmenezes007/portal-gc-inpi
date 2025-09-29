@@ -1,4 +1,4 @@
-// Dentro de src/app/app.routes.ts
+// DENTRO DE: src/app/app.routes.ts (VERSÃO CORRIGIDA)
 
 import { Routes } from '@angular/router';
 
