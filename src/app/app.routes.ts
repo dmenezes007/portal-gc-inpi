@@ -1,17 +1,17 @@
-// DENTRO DE: src/app/app.routes.ts (VERSÃO CORRIGIDA)
+// DENTRO DE: src/app/app.routes.ts (VERSÃO FINAL CORRIGIDA)
 
 import { Routes } from '@angular/router';
 
-// Importe os componentes que você já criou
-import { BoasVindasComponent } from './modules/boas-vindas/boas-vindas.component';
-import { MetodologiaComponent } from './modules/metodologia/metodologia.component';
-import { EstrategiaLiderancaComponent } from './modules/estrategia-lideranca/estrategia-lideranca.component';
-import { PessoasCulturaComponent } from './modules/pessoas-cultura/pessoas-cultura.component';
-import { ProcessosTecnologiaComponent } from './modules/processos-tecnologia/processos-tecnologia.component';
-import { DiagnosticoComponent } from './modules/diagnostico/diagnostico.component';
-import { EssencialidadeComponent } from './modules/essencialidade/essencialidade.component';
-import { CriticidadeComponent } from './modules/criticidade/criticidade.component';
-import { DesenvolvimentoComponent } from './modules/desenvolvimento/desenvolvimento.component';
+// Importe os componentes com os nomes de arquivo corretos
+import { BoasVindasComponent } from './modules/boas-vindas/boas-vindas';
+import { MetodologiaComponent } from './modules/metodologia/metodologia';
+import { EstrategiaLiderancaComponent } from './modules/estrategia-lideranca/estrategia-lideranca';
+import { PessoasCulturaComponent } from './modules/pessoas-cultura/pessoas-cultura';
+import { ProcessosTecnologiaComponent } from './modules/processos-tecnologia/processos-tecnologia';
+import { DiagnosticoComponent } from './modules/diagnostico/diagnostico';
+import { EssencialidadeComponent } from './modules/essencialidade/essencialidade';
+import { CriticidadeComponent } from './modules/criticidade/criticidade';
+import { DesenvolvimentoComponent } from './modules/desenvolvimento/desenvolvimento';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/boas-vindas', pathMatch: 'full' },

@@ -1,12 +1,12 @@
-// Dentro de src/main.ts
+// DENTRO DE: src/main.ts (VERSÃO FINAL CORRIGIDA)
 
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideRouter } from '@angular/router';
-import { AppComponent } from './app/app.component';
-import { routes } from './app/app.routes'; // Importe suas rotas
+import { AppComponent } from './app/app'; // Caminho corrigido
+import { routes } from './app/app.routes';
 
 bootstrapApplication(AppComponent, {
   providers: [
-    provideRouter(routes) // Habilite o roteamento aqui
+    provideRouter(routes)
   ]
 }).catch(err => console.error(err));
